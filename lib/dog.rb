@@ -12,8 +12,14 @@ class Dog
     @name = name
   end
   
-  def breed(breed)
+
+  
+  def initbreed(breed)
     @breed = breed
+  end
+  
+  def breed
+    @breed
   end
   
   def breed=(breed)
