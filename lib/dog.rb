@@ -2,7 +2,6 @@ class Dog
   
   def name(name)
     @name = name
-    puts @name
   end
   
   def name=(name)
