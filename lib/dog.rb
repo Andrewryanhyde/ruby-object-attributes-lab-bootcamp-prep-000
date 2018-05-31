@@ -1,8 +1,11 @@
 class Dog 
   
-  def name(name)
+  def initname(name)
     @name = name
   end
+  
+  def name(name)
+    @name
   
   def name=(name)
     @name = name
